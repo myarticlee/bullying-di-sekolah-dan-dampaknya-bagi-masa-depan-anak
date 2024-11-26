@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 0;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0;
+}
+
+article {
+    flex: 2;
+    margin-right: 1em;
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 0.5em 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
